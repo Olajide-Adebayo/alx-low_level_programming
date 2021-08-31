@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-char *c = "Holberton\n";
-
+char *c = "_putchar\n";
+ 
 while (*c)
 {
 _putchar(*c++);
