@@ -1,1 +1,1 @@
-Statistics library project
+My Statistics library project
