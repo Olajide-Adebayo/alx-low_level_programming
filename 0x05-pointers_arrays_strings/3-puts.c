@@ -1,15 +1,15 @@
 #include "main.h"
-
 /**
- * main - check the code for ALX School students.
- *
+ * _puts - function that prints a string, followed by a new line
+ * @str: declaration of *str and paramters for the function _puts
  * Return: Always 0.
  */
-int main(void)
+void _puts(char *str)
 {
-    char *str;
-
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    _puts(str);
-    return (0);
+int c;
+for (c = 0; str[c] != 0; c++)
+{
+_putchar(str[c]);
+}
+_putchar('\n');
 }
